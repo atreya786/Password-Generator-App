@@ -1,14 +1,13 @@
+import {SafeAreaView} from 'react-native';
 import React from 'react';
-import {SafeAreaView, Text, View} from 'react-native';
+import PasswordGenerator from './components/PasswordGenerator';
 
-function App() {
+const App = () => {
   return (
     <SafeAreaView>
-      <View>
-        <Text>Atreya Chandan</Text>
-      </View>
+      <PasswordGenerator />
     </SafeAreaView>
   );
-}
+};
 
 export default App;
